@@ -8,3 +8,11 @@ ionic g page album
 
 ionic g module directives/sharedDirectives --flat
 ionic g directive directives/imageFade
+
+# ADD LINES TO TSCONFIG
+
+"compilerOptions": {
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    
+}

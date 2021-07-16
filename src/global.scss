@@ -24,3 +24,21 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/sans-regular.ttf');
+}
+
+@font-face {
+    font-family: 'PTSans';
+    font-weight: bold;
+    src: url('/assets/fonts/sans-bold.ttf');
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('/assets/fonts/sans-light.ttf');
+}

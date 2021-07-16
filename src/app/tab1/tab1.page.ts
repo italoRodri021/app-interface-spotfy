@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  data = [
+    {
+      title: 'Amor Bandido',
+      album: 'Wesley Safadão',
+      img: 'assets/images/album.jpg'
+    }
+  ]
+
   constructor() {}
 
 }
