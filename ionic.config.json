@@ -1,0 +1,7 @@
+{
+  "name": "APP_INTERFACE_SPOTFY",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
