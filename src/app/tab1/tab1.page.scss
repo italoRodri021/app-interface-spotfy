@@ -1,0 +1,28 @@
+ion-content{
+    --padding-top: 40px;
+}
+
+.section-header{
+    color: white;
+    font-family: 'PTsans';
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+ion-img::part(image){
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+ion-slides{
+    margin-bottom: 20px;
+}
+
+.title{
+    color: white;
+    font-family: 'PTsans';
+    text-align: left;
+    font-size: 12px;
+}

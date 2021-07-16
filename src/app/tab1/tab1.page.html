@@ -1,15 +1,25 @@
 <ion-content>
-  <ion-row class="ion-no-padding" *ngFor="let ITEM of data; let isFirst = first;" >
+  <ion-row class="ion-no-padding" *ngFor="let ITEM of listCategory; let isFirst = first;" >
     <ion-col size="9">
       <h2 class="section-header">{{ ITEM.title }}</h2>
     </ion-col>
-    <ion-col size="3">
+    <ion-col size="3" class="ion-align-self-center ion-text-end">
       <ion-button
       *ngIf="isFirst"  
       color="light"
+      fill="clear"
       >
       <ion-icon name="settings-outline" slot="icon-only"></ion-icon>
     </ion-button>
     </ion-col>
+    <ion-slides [options]="slidesOptions">
+      <ion-slide *ngFor="let ALBUM of listAlbums" tappable (click)="openAlbum(ALBUM)" >
+        <div>
+          <ion-img [src]="ALBUM.image"></ion-img>
+          <span class="title">{{ ALBUM.title }}</span>
+        </div>
+        
+      </ion-slide>
+    </ion-slides>
   </ion-row>
 </ion-content>
